@@ -1,5 +1,7 @@
 This core directory serves as the basis for the Floating Orchard custom WordPress theme (https://github.com/jacobarriola/floating-orchard-wp).
 
+Any changes to the WP site manifest here and are then compiled to a <code>style.css</code> file and are overwritten on the WP theme.  Major markup changes are done here, although the site wasn't made into a WP theme until the client and designer approved the non-HTML markup.
+
 <h2>Sass</h2>
 
 The site is built using Sass and follows general recommended practices per Sass' documention (http://sass-lang.com/documentation/file.SASS_REFERENCE.html).  As of this write up, Sass 3.3.8 (Magestic Maple) was used.
