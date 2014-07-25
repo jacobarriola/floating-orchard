@@ -1,10 +1,8 @@
-Core HTML, CSS, Sass, Foundation and Compass files for custom theme for WordPress.
-
-This core directory servers as the basis for the Floating Orchard custom theme (https://github.com/jacobarriola/floating-orchard-wp).
+This core directory serves as the basis for the Floating Orchard custom WordPress theme (https://github.com/jacobarriola/floating-orchard-wp).
 
 <h2>Sass</h2>
 
-The site is built using Sass and follows general recommended practices per Sass' documention (http://sass-lang.com/documentation/file.SASS_REFERENCE.html).  As of this write up, Sass 3.3.8 (Magestic Maple was used).
+The site is built using Sass and follows general recommended practices per Sass' documention (http://sass-lang.com/documentation/file.SASS_REFERENCE.html).  As of this write up, Sass 3.3.8 (Magestic Maple) was used.
 
 Generally speaking, Sass was utilized for nesting CSS, organizing stylesheets, & color variables.
 
@@ -14,14 +12,14 @@ Compass (http://compass-style.org/) was used to make using Sass easier as well a
 
 <h2>Foundation</h2>
 
-The site is built using Foundation front-end framework using a mobile first approach.  Few modifications were done to the default install other than <code>.row</code> widths.
+The site is built using Foundation front-end framework (http://foundation.zurb.com/docs/) using a mobile first approach.  Few modifications were made to the default install other than <code>row</code> widths.
 
 <h3>Breakpoints</h3>
-Breakpoints used are Foundations default: small, medium and large (see http://foundation.zurb.com/docs/media-queries.html)
+Breakpoints used are Foundations' default: small, medium and large (see http://foundation.zurb.com/docs/media-queries.html).
 
-There are a few overides to accomodate the design, which can be found in the <code>../sass/_mediaqueries.scss</code> file.
+There are a few overrides to accommodate the design; the modifications can be found in the <code>../sass/_mediaqueries.scss</code> file.
 
-<h4>Global styles</h4>
+<h3>Global styles</h3>
 
 The <code>row</code> max width is 1200px, which is declared in <code>../sass/vendor/foundation/_settings.sccss</code>.
 
