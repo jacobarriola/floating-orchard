@@ -1,6 +1,6 @@
 This core directory serves as the basis for the Floating Orchard custom WordPress theme (https://github.com/jacobarriola/floating-orchard-wp).
 
-Any changes to the WP site manifest here and are then compiled to a <code>style.css</code> file and are overwritten on the WP theme.  Major markup changes are done here, although the site wasn't made into a WP theme until the client and designer approved the non-HTML markup.
+Any changes to the WP site manifest here and are then compiled to a <code>style.css</code> file and are overwritten on the WP theme.  Major markup changes are done here, although the site wasn't made into a WP theme until the client and designer approved the non-WP site.
 
 <h2>Sass</h2>
 
